@@ -1,0 +1,117 @@
+/* Je définis  mon body. C'est dans cette section que je mettrai mon texte et mes images */
+body
+{
+	/* la largeur du body */
+	width: 100%;
+	color: black;
+/* Ici je place le background; j'en choisis un neutre car sinon je ne peux pas voir le texte */
+	background-color: rgb(53, 53, 53);
+	background-size: cover;
+	text-align: left;
+}
+
+/* Mes balises h1 et h1, je peux en créer jusqu'à h6 */
+h1
+{
+	color: indigo;
+	font-size:18px; 
+}
+
+h2
+{
+	color: black;
+	font-weight: bold;
+	font-size:24px; 
+}
+
+/* Ma balise LINK pour les liens */
+a
+{
+	color: #008000;
+	font-weight: bold;
+	font-size:16px; 
+	
+}
+
+
+ /* Le carré centré */
+
+.center {
+	margin-top: 15% ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.center2 {
+  display: block;
+  width: 100px;
+    margin-left: auto;
+  margin-right: auto;
+}
+ 
+ 
+/* Ma balise container qui va contenir les div nommées section */
+#container
+
+{
+
+	width: 95% ;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+ #square
+
+{ 
+ margin-left: auto;
+  margin-right: auto;
+  	height:50%;
+   
+}
+
+ #square2
+
+{ 
+ margin-left: auto;
+  margin-right: auto;
+  width: 200px ;
+   
+}
+
+/* Mes balises Div pour mes deux marge.  */
+ #section1
+{
+	text-align: center;
+	float:left;
+	width: 60%;
+	/* border-style: solid; */
+	height:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#section2
+
+{
+text-align: center;
+		float: right;
+		width: 20%;
+	border-style: dashed;
+	height:100%;
+	margin-left:auto;
+margin-right:auto;
+color: black;
+	
+} 
+
+
+
+
+#section2 li {
+    margin: 0; padding: 0;
+}
+
+
